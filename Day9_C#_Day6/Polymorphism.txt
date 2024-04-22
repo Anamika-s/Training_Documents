@@ -1,0 +1,62 @@
+Polymorphism > One name, different forms
+Polymorphism can be of 2 types
+Compile Time Polymorphism/ Static 
+Run Time Polymorphism/ Dynamic
+
+Compile Time poly > Methods are linked with objects at compile time
+Compile Time Poly is achieved by Method Overloading & Operator Overloading
+
+Method Overloading > Overloading the same method with different number & type of parameters
+Add(int x, int y){}
+Add(int x, int y , int z){}
+Add(string s1, string s2) {}
+Void Add(float x, float y, int z){}
+Int Add(float x, float y, int z){}  // compile time error
+Constructors
+Student() {} Student (int rn , string name) {} static Student{}{}
+
+Overloading same operator with different type of operands
++ 
+2 + 3
+“aa” + “bb”
+Obj1 + obj2
+
+Dynamic Polymorphism > Dynamic linking 
+Methods are linked with objects at run time
+Achieved by Method Overriding 
+Here we use virtual functions
+
+
+
+
+Abstract class Emp
+{
+…. Variables
+
+Abstract Get();
+
+}
+
+Class PartTimeEmp : Emp
+{
+Override Get() {}
+}
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
